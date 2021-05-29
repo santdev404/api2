@@ -20,5 +20,5 @@ Route::get('/', function () {
 });
 
 
-Route::post('/api/registrar', [UserController::class, 'registrar']);
+Route::post('/api/register', [UserController::class, 'register']);
 Route::post('/api/login', [UserController::class, 'login']);
